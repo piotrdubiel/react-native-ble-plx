@@ -59,9 +59,12 @@ public class BleClientManager : NSObject {
     public init(queue: DispatchQueue, restoreIdentifierKey: String?) {
 
         if let key = restoreIdentifierKey {
+            let options = [CBCentralManagerOptionRestoreIdentifierKey: key as AnyObject]
+            NSLog("Launched BleClientManager with options: \(options)")
             manager = BluetoothManager(queue: queue,
-                                       options: [CBCentralManagerOptionRestoreIdentifierKey: key as AnyObject])
+                                       options: options)
         } else {
+            NSLog("Launched BleClientManager without options")
             manager = BluetoothManager(queue: queue)
         }
 

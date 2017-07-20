@@ -1,2 +1,2 @@
-github "ReactiveX/RxSwift" "3.4.1"
-github "Polidea/RxBluetoothKit" "3.0.12"
+github "Polidea/RxBluetoothKit" "2721c5299bdc1973316c3f0e9feb9f5f07d73757"
+github "ReactiveX/RxSwift" "3.6.0"

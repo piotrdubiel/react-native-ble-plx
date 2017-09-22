@@ -1,0 +1,31 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:flowtype/recommended"
+  ],
+  "plugins": ["react", "jsx-a11y", "import", "flowtype", "jest"],
+  "rules": {
+    "no-unused-vars": [
+      2,
+      {
+        "vars": "local",
+        "args": "none"
+      }
+    ],
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "semi": ["error", "never"]
+  },
+  "env": {
+    "node": true,
+    "es6": true,
+    "jest": true
+  }
+}

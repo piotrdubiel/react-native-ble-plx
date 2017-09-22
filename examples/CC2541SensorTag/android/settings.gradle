@@ -1,0 +1,3 @@
+rootProject.name = 'CC2541SensorTag'
+
+include ':app'

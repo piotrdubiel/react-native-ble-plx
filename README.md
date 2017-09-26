@@ -39,7 +39,7 @@ wish to set up for iOS, please install it first and only then follow the steps g
 
 ```bash
 npm install --save react-native-ble-plx
-react-native link
+react-native link react-native-ble-plx
 ```
 
 Both on iOS and Android continue manually from step 7.

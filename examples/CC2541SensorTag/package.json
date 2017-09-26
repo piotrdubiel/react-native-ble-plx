@@ -24,7 +24,8 @@
     "jest": "21.1.0",
     "prettier": "1.7.0",
     "prettier-eslint": "8.1.1",
-    "react-test-renderer": "16.0.0-alpha.12"
+    "react-test-renderer": "16.0.0-alpha.12",
+    "react-native-ble-plx": "git://github.com/Polidea/react-native-ble-plx.git#ver_0_7"
   },
   "jest": {
     "preset": "react-native"
